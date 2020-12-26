@@ -20,18 +20,22 @@ nav{
     background: purple;
     position: fixed;
     width: 100%;
-    cursor: url('http://www.rw-designer.com/cursor-view/104992.png'), auto;
     margin: 0;
     padding: 10px 0 10px 10px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     font-family: 'Dosis', sans-serif;
+    cursor: url('http://www.rw-designer.com/cursor-view/104968.png'), auto;	/*Unicorn Cat*/
 }
 nav a{
     color:turquoise;
     font-weight: bold;
 }
+nav a:hover{
+    cursor: url('http://www.rw-designer.com/cursor-view/104992.png'), auto; /*Neopets Unicorn*/
+}
+
 .links{
     margin-left: auto;
     padding-right: 20px;
@@ -45,7 +49,7 @@ nav a{
     background-image: url('https://img.wallpapersafari.com/desktop/1600/900/33/13/0Cv4Fx.jpg');
     background-size: auto 500px;
     background-repeat: no-repeat;
-    cursor: url('http://www.rw-designer.com/cursor-view/104968.png'), auto;	
+    cursor: url('http://www.rw-designer.com/cursor-view/104968.png'), auto;	/*Unicorn Cat*/
 }
 
 .flav-img-grid{
@@ -88,7 +92,7 @@ nav a{
 .bottom-container{
     background-image: url('https://cur.glitter-graphics.net/pub/2856/2856418tig64ck9y3.gif');
     background-repeat: repeat;
-    cursor: url('http://www.rw-designer.com/cursor-view/104991.png'), auto;	
+    cursor: url('http://www.rw-designer.com/cursor-view/104991.png'), auto;	/*MLP Unicorn*/
     width: 100%;
     font-family: 'Dosis', sans-serif;
 }
