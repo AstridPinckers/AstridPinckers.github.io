@@ -23,16 +23,16 @@ a:link:hover{
 }
 
 .navbar{
-    display: flex;
-    justify-content: space-between;
-  
-    width: 100%;
-    padding: 10px;
-    background: black;
-    color: white;
-    line-height: 39px;
-    font-size: 1.5rem;
-    font-family: "Arial Black",sans-serif;
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 10px;
+  background: black;
+  color: white;
+  line-height: 39px;
+  font-size: 1.5rem;
+  font-family: "Arial Black",sans-serif;
 }
 
   nav{
@@ -54,7 +54,7 @@ a:link:hover{
   }
 
   .page{
-      margin: 0 10px;
+    margin: 0 10px;
   }
 
   h1{
