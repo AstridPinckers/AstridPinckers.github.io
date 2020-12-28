@@ -9,16 +9,13 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 html, body{
-    border: 1px solid black;
-    /*min-width: 100%;
-    width: 100%;*/
-    width: auto;
+    min-width: 100%;
+    width: 100%;
 }
 
 header{
     min-width: 100%;  
     width: 100%;
-    
 }
 
 nav{
@@ -31,7 +28,6 @@ nav{
     align-items: center;
     font-family: 'Dosis', sans-serif;
     cursor: url('images/unicorn/caticorn.png'), auto;	/*Unicorn Cat*/
-    
 }
 nav a{
     color:turquoise;
@@ -50,8 +46,7 @@ nav a:hover{
 
 .center-container{
     min-width: 100%;
-    width: 100%;
-    
+    width: 100%; 
 }
 
 
@@ -70,6 +65,7 @@ nav a:hover{
     display: flex;
     justify-content: space-around;
     margin-bottom: 25px;
+    min-width: 100%;
     width: 100%;
 }
 
