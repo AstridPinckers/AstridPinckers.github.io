@@ -19,9 +19,10 @@ header{
 }
 
 nav{
-    background: purple;
     min-width: 100%;
     width: 100%;
+
+    background: purple;
     padding: 10px 0 10px 10px;
     display: flex;
     justify-content: flex-start;
@@ -58,17 +59,20 @@ nav a:hover{
     background-image: url('images/unicorn/nebula.jpg');
     background-size: cover;
     background-repeat: repeat;
-    
+    border: 1px solid transparent;
+   
+}
+.fix-it{
+    width: 100%;
 }
 
 .flav-img-grid{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-bottom: 25px;
     min-width: 100%;
     width: 100%;
 }
-
 .flav-img-grid img{
     height: 150px;
 }
@@ -76,9 +80,6 @@ nav a:hover{
 .flip{
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-}
-.invisible{
-    visibility: hidden;
 }
 
 
@@ -123,6 +124,15 @@ td:last-of-type{
 }
 td{
     padding: 5px;
+}
+
+@media only screen and (max-width: 960px) {
+    .invisible{
+        visibility: hidden;
+        position: absolute ;
+        top: 0;
+        left: 0;
+    }
 }
 
 
