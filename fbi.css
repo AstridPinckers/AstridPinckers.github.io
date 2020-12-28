@@ -16,10 +16,10 @@ html body {
 }
 
 a:link{
-    text-decoration: none;
+  text-decoration: none;
 }
 a:link:hover{
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .navbar{

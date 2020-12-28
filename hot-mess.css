@@ -3,44 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
-    min-width: 100%;
-}
 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
-
-body{
-    min-width: 100%;
-    background-image: url('https://img.wallpapersafari.com/desktop/1600/900/33/13/0Cv4Fx.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+html, body{
+    border: 1px solid black;
+    /*min-width: 100%;
+    width: 100%;*/
+    width: auto;
 }
 
 header{
     min-width: 100%;  
-    margin: 0;
+    width: 100%;
+    
 }
 
 nav{
     background: purple;
     min-width: 100%;
-    margin: 0;
+    width: 100%;
     padding: 10px 0 10px 10px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     font-family: 'Dosis', sans-serif;
-    cursor: url('http://www.rw-designer.com/cursor-view/104968.png'), auto;	/*Unicorn Cat*/
+    cursor: url('images/unicorn/caticorn.png'), auto;	/*Unicorn Cat*/
+    
 }
 nav a{
     color:turquoise;
     font-weight: bold;
 }
 nav a:hover{
-    cursor: url('http://www.rw-designer.com/cursor-view/104992.png'), auto; /*Neopets Unicorn*/
+    cursor: url('images/unicorn/neocorn.png'), auto; /*Neopets Unicorn*/
 }
 
 .links{
@@ -48,20 +46,31 @@ nav a:hover{
     padding-right: 20px;
     flex-direction: row; 
 }
+
+
 .center-container{
-    margin: 0 auto;
+    min-width: 100%;
+    width: 100%;
+    
 }
+
 
 .top-container{
     padding-top: 100px;
     min-width: 100%;
-    cursor: url('http://www.rw-designer.com/cursor-view/104968.png'), auto;	/*Unicorn Cat*/
+    width: 100%;
+    cursor: url('images/unicorn/caticorn.png'), auto;	/*Unicorn Cat*/
+    background-image: url('images/unicorn/nebula.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    
 }
 
 .flav-img-grid{
     display: flex;
     justify-content: space-around;
     margin-bottom: 25px;
+    width: 100%;
 }
 
 .flav-img-grid img{
@@ -76,18 +85,13 @@ nav a:hover{
     visibility: hidden;
 }
 
-.hack{
-    background-color: teal;
-    border: 1px solid green;
-    padding-top: 1px;
-    min-width: 100%;
-}
 
 .title{
     text-align: center;
     font-size: 3.25em;
     animation: blinkingText 2.4s infinite;
     padding-bottom: 30px;
+    font-family: 'Bonbon', cursive;
 }
 
 @keyframes blinkingText{
@@ -99,15 +103,19 @@ nav a:hover{
 }
 
 .bottom-container{
-    background-image: url('https://cur.glitter-graphics.net/pub/2856/2856418tig64ck9y3.gif');
+    background-image: url('images/unicorn/sparkle.gif');
     background-repeat: repeat;
-    cursor: url('http://www.rw-designer.com/cursor-view/104991.png'), auto;	/*MLP Unicorn*/
+    cursor: url('images/unicorn/MLP.png'), auto;	/*MLP Unicorn*/
     min-width: 100%;
+    width: 100%;
     font-family: 'Dosis', sans-serif;
+    
 }
 .text-container{
     text-align: center;
     min-width: 100%;
+    width: 100%;
+    
 }
 
 td:first-of-type{
@@ -133,7 +141,7 @@ td{
     }
 
     .top-container{
-        background-image: url('https://img.wallpapersafari.com/desktop/1600/900/33/13/0Cv4Fx.jpg');
+        background-image: url('images/unicorn/nebula.jpg');
         background-size: cover;
     }
     
