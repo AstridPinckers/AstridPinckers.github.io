@@ -252,6 +252,9 @@ footer{
     flex-wrap: wrap;
   }
 
+  .contents-wrap{
+    margin: 0 20px ;
+  }
 
 /*Footer*/
    .ref-wrap{
