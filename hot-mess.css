@@ -75,6 +75,7 @@ nav a:hover{
 }
 .flav-img-grid img{
     height: 150px;
+    width: intrinsic;
 }
 
 .flip{
